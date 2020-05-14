@@ -3,6 +3,9 @@ kind: Pod
 metadata:
   name: simple-service-pod
   namespace: example
+  labels:
+    env: prod
+    type: service
 spec:
   containers:
     - name: simple-service-container

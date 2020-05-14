@@ -3,6 +3,9 @@ kind: Pod
 metadata:
   name: my-nginx-pod
   namespace: example
+  labels:
+    env: prod
+    type: server
 spec:
   containers:
     - name: my-nginx-container

@@ -26,7 +26,10 @@
 ```bash
     kubectl delete pod --all -n example
 ```
-
+### Command to filter pods by label
+```bash
+    kubectl get pods -n example -l type=service
+```
 
     
     
