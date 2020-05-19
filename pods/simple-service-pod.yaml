@@ -10,3 +10,5 @@ spec:
   containers:
     - name: simple-service-container
       image: mhausenblas/simpleservice:0.5.0
+      ports:
+        - containerPort: 9876
